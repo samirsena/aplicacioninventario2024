@@ -18,3 +18,8 @@ Route::view('/', 'welcome');
 
 Route::apiResource('productos', App\Http\Controllers\ProductoController::class);
 
+Route::get('productos', [ProductoController::class, 'index'])->name('productos.lista');
+
+Route::get('productos/create', [ProductoController::class, 'create'])->name('productos.create');
+
+Route::get('productos/{producto}/edit', [ProductoController::class, 'edit'])->name('productos.edit');
