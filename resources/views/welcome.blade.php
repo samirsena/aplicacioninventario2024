@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('titulo', 'Mis artesanias')
+@section('titulo', 'Pagina principal')
 
 @section('contenido')
 <div class="hero bg-base-200 min-h-screen">
