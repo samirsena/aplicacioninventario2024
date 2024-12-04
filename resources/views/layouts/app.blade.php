@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>@yield('titulo','Aplicacioninventario2024')</title>
+        <title>@yield('titulo','aplicacioninventario2024')</title>
+
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
@@ -15,7 +16,7 @@
             @include('layouts.navbar')
         </header>
         <main>
-            <div class="bg-green-300 my-4 text-center">
+            <div class="bg-green-100 my-4 text-center">
                 <h1 class="text-lg font-semibold m-4 uppercase">@yield('cabecera')</h1>
             </div>
             @yield('contenido')

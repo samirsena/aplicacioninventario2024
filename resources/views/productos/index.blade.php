@@ -10,7 +10,7 @@
    <div class="card bg-base-100 w-96 shadow-xl">
      <figure>
       <img
-        src="https://picsum.photos/id/¨{{ $producto->id }}/200/300"
+        src="https://picsum.photos/id/{{ $producto->id }}/200/300"
         alt="{{ $producto->nombre }}" />
      </figure>
       <div class="card-body">
